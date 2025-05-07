@@ -11,11 +11,12 @@ const VideoCard = ({ video }: any) => {
             <div className="relative">
                 <Link
                     href={`/v/${video.file_code}#${video.title}`}
-                    title={`Watch ${video.title}`}
+                    title={`Bokep ${video.title}`}
                     target="blank"
                     >
                 <Thumbnail
-                    thumbnail={video.thumbnail}
+                    single_img={video.single_img}
+                    splash_img={video.splash_img}
                     title={video.title}
                 />
                 </Link>
@@ -24,9 +25,9 @@ const VideoCard = ({ video }: any) => {
                 <Link
                     href={`/v/${video.file_code}#${video.title}`}
                     className="line-clamp-2 text-sm md:text-md font-semibold hover:text-primary focus:text-primary"
-                    title={`Watch ${video.title}`}
+                    title={`Bokep ${video.title}`}
                 >
-                    {video.title}
+                   Bokep {video.title}
                 </Link></h3>
             </CardContent>
         </Card>
