@@ -1,2 +1,1 @@
-# videobokepukty
-videobokepukty
+# [videobokepukty](https://videobokepukty.pages.dev)
